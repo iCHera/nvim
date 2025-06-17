@@ -18,6 +18,15 @@ return {
 
   -- == Examples of Overriding Plugins ==
 
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd("colorscheme kanagawa-wave")  -- или "kanagawa", "kanagawa-dragon"
+    end,
+  },
+
   -- customize dashboard options
   {
     "folke/snacks.nvim",
