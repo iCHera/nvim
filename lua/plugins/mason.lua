@@ -28,7 +28,6 @@ return {
 
         -- CSS / Tailwind / Stylelint
         "tailwindcss-language-server", -- LSP
-        "stylelint-lsp",               -- LSP
         "stylelint",                   -- Linter
         "css-lsp",                    -- LSP
 
