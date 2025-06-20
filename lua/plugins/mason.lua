@@ -28,7 +28,7 @@ return {
 
         -- CSS / Tailwind / Stylelint
         "tailwindcss-language-server", -- LSP
-        "stylelint",                   -- Linter
+        -- "stylelint",                   -- Linter
         "css-lsp",                    -- LSP
 
         -- HTML / JSON / Emmet
